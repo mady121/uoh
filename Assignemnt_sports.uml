@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_S2FYULzrEeyBAt1NlSMfcg" name="Assignemnt_sports">
+    <eAnnotations xmi:id="_YQr_0LzrEeyBAt1NlSMfcg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_YQvDILzrEeyBAt1NlSMfcg" source="codegen">
+        <details xmi:id="_YQvqMLzrEeyBAt1NlSMfcg" key="codegenDirectory" value="/Assignemnt_sports/src"/>
+        <details xmi:id="_Ycj4oLzrEeyBAt1NlSMfcg" key="AssociatedSourceCode" value="/Assignemnt_sports/src/assignment/Groups_Exer.java;2323286188/1;/Assignemnt_sports/src/assignment/Manage_Booking.java;3066428128/1;/Assignemnt_sports/src/assignment/Report_generate_monthly.java;1646706141/1;/Assignemnt_sports/src/assignment/Reviews.java;255920671/1;/Assignemnt_sports/src/assignment/UniversitySportsCentre_main.java;1897699970/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_YPJHsLzrEeyBAt1NlSMfcg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_YPV8ALzrEeyBAt1NlSMfcg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_YPY_ULzrEeyBAt1NlSMfcg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_YPY_UbzrEeyBAt1NlSMfcg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_YPZmYLzrEeyBAt1NlSMfcg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_YPaNcLzrEeyBAt1NlSMfcg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_YPaNcbzrEeyBAt1NlSMfcg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_YPaNcrzrEeyBAt1NlSMfcg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_YPee4LzrEeyBAt1NlSMfcg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YPoP4LzrEeyBAt1NlSMfcg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_YPrTMLzrEeyBAt1NlSMfcg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_YVmVALzrEeyBAt1NlSMfcg" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YV86ULzrEeyBAt1NlSMfcg" name="Scanner"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_aCR5QLzrEeyBAt1NlSMfcg" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_aDjroLzrEeyBAt1NlSMfcg" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aDn9ELzrEeyBAt1NlSMfcg" name="FileNotFoundException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YP58sLzrEeyBAt1NlSMfcg" name="assignment">
+      <packagedElement xmi:type="uml:Class" xmi:id="_YQX2wLzrEeyBAt1NlSMfcg" name="Groups_Exer" isLeaf="true">
+        <ownedAttribute xmi:id="_YWK8wLzrEeyBAt1NlSMfcg" name="d">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_YWOAELzrEeyBAt1NlSMfcg" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_YWUtwLzrEeyBAt1NlSMfcg" name="exe_name" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_YWVU0LzrEeyBAt1NlSMfcg" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_YWWi8bzrEeyBAt1NlSMfcg" name="time_slot" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_YWXKALzrEeyBAt1NlSMfcg" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_YWXxEbzrEeyBAt1NlSMfcg" name="fees" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_YWYYILzrEeyBAt1NlSMfcg" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_YWY_MLzrEeyBAt1NlSMfcg" name="s" visibility="package" type="_YV86ULzrEeyBAt1NlSMfcg" association="_YW8Y0LzrEeyBAt1NlSMfcg">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_YWY_MbzrEeyBAt1NlSMfcg" value="new Scanner(System.in)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_YWZmQLzrEeyBAt1NlSMfcg" name="grp" visibility="package" isStatic="true" type="_YQX2wLzrEeyBAt1NlSMfcg" association="_YXB4YLzrEeyBAt1NlSMfcg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YWqE8LzrEeyBAt1NlSMfcg" name="Groups_Exer" specification="_YRDzQLzrEeyBAt1NlSMfcg">
+          <ownedParameter xmi:id="_YWrTELzrEeyBAt1NlSMfcg" type="_YQX2wLzrEeyBAt1NlSMfcg" direction="return"/>
+          <language>java</language>
+          <body>System.out.println(&quot;Type  \n 1 Saturday \n 2 Sunday\n&quot;);&#xD;
+		d = s.next();&#xD;
+&#xD;
+		System.out.println(&quot;1=>Yoga\n2=>Zumba\n3=>Aquacise\n4=>BoxFit\n5=>BodyBlitz&quot;);&#xD;
+		System.out.println(&quot;Enter the name of Group Exercise from the above list&quot;);&#xD;
+&#xD;
+		exe_name = s.next();&#xD;
+&#xD;
+		if (d.equals(&quot;1&quot;) &amp;&amp; exe_name.equalsIgnoreCase(&quot;1&quot;) || exe_name.equalsIgnoreCase(&quot;2&quot;)&#xD;
+				|| exe_name.equalsIgnoreCase(&quot;3&quot;) || exe_name.equalsIgnoreCase(&quot;4&quot;) || exe_name.equalsIgnoreCase(&quot;5&quot;)) {&#xD;
+			Saturday_Class();&#xD;
+		}&#xD;
+&#xD;
+		else if (d.equals(&quot;2&quot;) &amp;&amp; exe_name.equalsIgnoreCase(&quot;1&quot;) || exe_name.equalsIgnoreCase(&quot;2&quot;)&#xD;
+				|| exe_name.equalsIgnoreCase(&quot;3&quot;) || exe_name.equalsIgnoreCase(&quot;4&quot;) || exe_name.equalsIgnoreCase(&quot;5&quot;)) {&#xD;
+&#xD;
+			Sunday_Class();&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YWxZsLzrEeyBAt1NlSMfcg" name="Saturday_Class" specification="_YRLIALzrEeyBAt1NlSMfcg">
+          <language>java</language>
+          <body>System.out&#xD;
+				.println(&quot;\nSelect Time Slot\n1.Morning: 8:00-11:00\n2.Afternoon: 12:00-3:00\n3.Evening: 6:30-9:30\n&quot;);&#xD;
+&#xD;
+		int slot = 0;&#xD;
+		if (exe_name.equalsIgnoreCase(&quot;zumba&quot;)) {&#xD;
+			fees = 400;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;Aquacise&quot;)) {&#xD;
+			fees = 450;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;yoga&quot;)) {&#xD;
+			fees = 500;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;BoxFit&quot;)) {&#xD;
+			fees = 480;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;BodyBlitz&quot;)) {&#xD;
+			fees = 400;&#xD;
+		}&#xD;
+&#xD;
+		slot = s.nextInt();&#xD;
+&#xD;
+		switch (slot) {&#xD;
+		case 1:&#xD;
+			time_slot = &quot;Morning: 8:00-11:00&quot;;&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name&#xD;
+					+ &quot;\nShift: &quot; + &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Succesful !\n&quot;);&#xD;
+			another_booking();&#xD;
+&#xD;
+			break;&#xD;
+&#xD;
+		case 2:&#xD;
+			time_slot = &quot;Afternoon: 12:00-3:00&quot;;&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name + &quot;\nSlot: &quot;&#xD;
+					+ &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Succesful !\n&quot;);&#xD;
+			another_booking();&#xD;
+			break;&#xD;
+&#xD;
+		case 3:&#xD;
+			time_slot = &quot;Evening: 6:30-9:30&quot;;&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name + &quot;\nSlot: &quot;&#xD;
+					+ &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Succesful !\n&quot;);&#xD;
+			another_booking();&#xD;
+			break;&#xD;
+		default:&#xD;
+			System.out.println(&quot;Invalid Input\nProvide a valid one\n&quot;);&#xD;
+			break;&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YWyAwLzrEeyBAt1NlSMfcg" name="Sunday_Class" specification="_YRNkQLzrEeyBAt1NlSMfcg">
+          <language>java</language>
+          <body>System.out&#xD;
+				.println(&quot;\nSelect Time Slot\n1.Morning: 8:00-11:00\n2.Afternoon: 12:00-3:00\n3.Evening: 6:30-9:30\n&quot;);&#xD;
+&#xD;
+		int slot = 0;&#xD;
+&#xD;
+		slot = s.nextInt();&#xD;
+		if (exe_name.equalsIgnoreCase(&quot;zumba&quot;)) {&#xD;
+			fees = 400;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;Aquacise&quot;)) {&#xD;
+			fees = 450;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;yoga&quot;)) {&#xD;
+			fees = 500;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;BoxFit&quot;)) {&#xD;
+			fees = 480;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;BodyBlitzSunday&quot;)) {&#xD;
+			fees = 400;&#xD;
+		}&#xD;
+		switch (slot) {&#xD;
+		case 1:&#xD;
+			time_slot = &quot;Morning: 8:00-11:00&quot;;&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name&#xD;
+					+ &quot;\nShift: &quot; + &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Succesful !\n&quot;);&#xD;
+			another_booking();&#xD;
+			break;&#xD;
+&#xD;
+		case 2:&#xD;
+			time_slot = &quot;Afternoon: 12:00-3:00&quot;;&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name + &quot;\nSlot: &quot;&#xD;
+					+ &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Succesful !\n&quot;);&#xD;
+			another_booking();&#xD;
+			break;&#xD;
+&#xD;
+		case 3:&#xD;
+			time_slot = &quot;Evening: 6:30-9:30&quot;;&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name + &quot;\nSlot: &quot;&#xD;
+					+ &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Succesful !\n&quot;);&#xD;
+			another_booking();&#xD;
+			break;&#xD;
+		default:&#xD;
+			System.out.println(&quot;Invalid Input\nProvide a valid one&quot;);&#xD;
+			break;&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YWyAwbzrEeyBAt1NlSMfcg" name="another_booking" specification="_YRNkQbzrEeyBAt1NlSMfcg">
+          <language>java</language>
+          <body>String ch = null;&#xD;
+		System.out.println(&quot;Do you want to book another Exercise class???\nPress y for Yes\nPress n for No\n&quot;);&#xD;
+		ch = s.next();&#xD;
+&#xD;
+		switch (ch) {&#xD;
+		case &quot;y&quot;:&#xD;
+			grp = new Groups_Exer();&#xD;
+			break;&#xD;
+		case &quot;n&quot;:&#xD;
+			break;&#xD;
+		default:&#xD;
+			System.out.println(&quot;Invalid Choice&quot;);&#xD;
+			break;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YWzO4LzrEeyBAt1NlSMfcg" name="bookingList" specification="_YROLULzrEeyBAt1NlSMfcg">
+          <language>java</language>
+          <body>ArrayList&lt;String> lt = new ArrayList&lt;>(); // STRING ARRAY LIST FOR STORING BOOKING//&#xD;
+		lt.add(&quot;Day: &quot; + &quot; &quot; + d);&#xD;
+		lt.add(&quot;Enrolled Class: &quot; + &quot; &quot; + exe_name);&#xD;
+		lt.add(&quot;Time Slot: &quot; + &quot; &quot; + time_slot);&#xD;
+		lt.add(&quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+		// for-each loop for traversing the list//&#xD;
+		lt.forEach((a) -> {&#xD;
+			System.out.println(a + &quot;\n&quot;);&#xD;
+		});&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_YRDzQLzrEeyBAt1NlSMfcg" name="Groups_Exer" method="_YWqE8LzrEeyBAt1NlSMfcg">
+          <eAnnotations xmi:id="_YRHdoLzrEeyBAt1NlSMfcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_YRHdobzrEeyBAt1NlSMfcg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_YRIEsLzrEeyBAt1NlSMfcg" type="_YQX2wLzrEeyBAt1NlSMfcg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_YRLIALzrEeyBAt1NlSMfcg" name="Saturday_Class" visibility="private" method="_YWxZsLzrEeyBAt1NlSMfcg"/>
+        <ownedOperation xmi:id="_YRNkQLzrEeyBAt1NlSMfcg" name="Sunday_Class" visibility="private" method="_YWyAwLzrEeyBAt1NlSMfcg"/>
+        <ownedOperation xmi:id="_YRNkQbzrEeyBAt1NlSMfcg" name="another_booking" visibility="private" method="_YWyAwbzrEeyBAt1NlSMfcg"/>
+        <ownedOperation xmi:id="_YROLULzrEeyBAt1NlSMfcg" name="bookingList" method="_YWzO4LzrEeyBAt1NlSMfcg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_YW8Y0LzrEeyBAt1NlSMfcg" name="" memberEnd="_YW8Y0bzrEeyBAt1NlSMfcg _YWY_MLzrEeyBAt1NlSMfcg">
+        <ownedEnd xmi:id="_YW8Y0bzrEeyBAt1NlSMfcg" name="" type="_YQX2wLzrEeyBAt1NlSMfcg" association="_YW8Y0LzrEeyBAt1NlSMfcg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_YXB4YLzrEeyBAt1NlSMfcg" name="" memberEnd="_YXB4YbzrEeyBAt1NlSMfcg _YWZmQLzrEeyBAt1NlSMfcg">
+        <ownedEnd xmi:id="_YXB4YbzrEeyBAt1NlSMfcg" name="" type="_YQX2wLzrEeyBAt1NlSMfcg" association="_YXB4YLzrEeyBAt1NlSMfcg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZD8BsLzrEeyBAt1NlSMfcg" name="Manage_Booking">
+        <ownedAttribute xmi:id="_ZFL-4LzrEeyBAt1NlSMfcg" name="d">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ZFMl8LzrEeyBAt1NlSMfcg" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ZFRecLzrEeyBAt1NlSMfcg" name="exe_name" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ZFSFgLzrEeyBAt1NlSMfcg" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ZFT6sLzrEeyBAt1NlSMfcg" name="time_slot" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ZFT6sbzrEeyBAt1NlSMfcg" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ZFVv4LzrEeyBAt1NlSMfcg" name="fees" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ZFVv4bzrEeyBAt1NlSMfcg" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ZFWW8bzrEeyBAt1NlSMfcg" name="s" visibility="package" type="_YV86ULzrEeyBAt1NlSMfcg" association="_ZFikMLzrEeyBAt1NlSMfcg">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ZFW-ALzrEeyBAt1NlSMfcg" value="new Scanner(System.in)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ZFXlEbzrEeyBAt1NlSMfcg" name="modify" visibility="package" isStatic="true" type="_ZD8BsLzrEeyBAt1NlSMfcg" association="_ZFoq0LzrEeyBAt1NlSMfcg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZFcdkLzrEeyBAt1NlSMfcg" name="Manage_Booking" specification="_ZEFysLzrEeyBAt1NlSMfcg">
+          <ownedParameter xmi:id="_ZFcdkbzrEeyBAt1NlSMfcg" type="_ZD8BsLzrEeyBAt1NlSMfcg" direction="return"/>
+          <language>java</language>
+          <body>System.out.println(&quot;Select either Saturday or Sunday\n&quot;);&#xD;
+		d = s.next();&#xD;
+		System.out.println(&quot;Yoga\nZumba\nAquacise\nBoxFit\nBodyBlitz&quot;);&#xD;
+		System.out.println(&quot;Enter the name of Group Exercise from the above list&quot;);&#xD;
+		exe_name = s.next();&#xD;
+&#xD;
+		if (d.equalsIgnoreCase(&quot;Saturday&quot;) &amp;&amp; exe_name.equalsIgnoreCase(&quot;zumba&quot;) || exe_name.equalsIgnoreCase(&quot;yoga&quot;)&#xD;
+				|| exe_name.equalsIgnoreCase(&quot;Aquacise&quot;) || exe_name.equalsIgnoreCase(&quot;BoxFit&quot;)&#xD;
+				|| exe_name.equalsIgnoreCase(&quot;BodyBlitz&quot;)) {&#xD;
+			Saturday_Class();&#xD;
+		}&#xD;
+&#xD;
+		else if (d.equalsIgnoreCase(&quot;Sunday&quot;) &amp;&amp; exe_name.equalsIgnoreCase(&quot;zumba&quot;) || exe_name.equalsIgnoreCase(&quot;yoga&quot;)&#xD;
+				|| exe_name.equalsIgnoreCase(&quot;Aquacise&quot;) || exe_name.equalsIgnoreCase(&quot;BoxFit&quot;)&#xD;
+				|| exe_name.equalsIgnoreCase(&quot;BodyBlitz&quot;)) {&#xD;
+&#xD;
+			Sunday_Class();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZFeSwLzrEeyBAt1NlSMfcg" name="Saturday_Class" specification="_ZEIO8LzrEeyBAt1NlSMfcg">
+          <language>java</language>
+          <body>System.out&#xD;
+				.println(&quot;\nSelect Time Slot\n1.Morning: 8:00-11:00\n2.Afternoon: 12:00-3:00\n3.Evening: 6:30-9:30\n&quot;);&#xD;
+&#xD;
+		int slot = 0;&#xD;
+		slot = s.nextInt();&#xD;
+		if (exe_name.equalsIgnoreCase(&quot;zumba&quot;)) {&#xD;
+			fees = 400;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;Aquacise&quot;)) {&#xD;
+			fees = 450;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;yoga&quot;)) {&#xD;
+			fees = 500;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;BoxFit&quot;)) {&#xD;
+			fees = 480;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;BodyBlitz&quot;)) {&#xD;
+			fees = 400;&#xD;
+		}&#xD;
+&#xD;
+		switch (slot) {&#xD;
+		case 1:&#xD;
+			time_slot = &quot;Morning: 8:00-11:00&quot;;&#xD;
+			// fees = 500;&#xD;
+&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name&#xD;
+					+ &quot;\nShift: &quot; + &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Modify Succesful !\n&quot;);&#xD;
+			another_booking();&#xD;
+&#xD;
+			break;&#xD;
+&#xD;
+		case 2:&#xD;
+			time_slot = &quot;Afternoon: 12:00-3:00&quot;;&#xD;
+			// fees = 400;&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name + &quot;\nSlot: &quot;&#xD;
+					+ &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Modified !\n&quot;);&#xD;
+			another_booking();&#xD;
+			break;&#xD;
+&#xD;
+		case 3:&#xD;
+			// fees = 450;&#xD;
+			time_slot = &quot;Evening: 6:30-9:30&quot;;&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name + &quot;\nSlot: &quot;&#xD;
+					+ &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Modified !\n&quot;);&#xD;
+			another_booking();&#xD;
+			break;&#xD;
+		default:&#xD;
+			System.out.println(&quot;Invalid Input\nEnter a valid option\n&quot;);&#xD;
+			break;&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZFeSwbzrEeyBAt1NlSMfcg" name="Sunday_Class" specification="_ZEI2ALzrEeyBAt1NlSMfcg">
+          <language>java</language>
+          <body>System.out&#xD;
+				.println(&quot;\nSelect Time Slot\n1.Morning: 8:00-11:00\n2.Afternoon: 12:00-3:00\n3.Evening: 6:30-9:30\n&quot;);&#xD;
+&#xD;
+		int slot = 0;&#xD;
+		slot = s.nextInt();&#xD;
+		if (exe_name.equalsIgnoreCase(&quot;zumba&quot;)) {&#xD;
+			fees = 400;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;Aquacise&quot;)) {&#xD;
+			fees = 450;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;yoga&quot;)) {&#xD;
+			fees = 500;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;BoxFit&quot;)) {&#xD;
+			fees = 480;&#xD;
+		} else if (exe_name.equalsIgnoreCase(&quot;BodyBlitz&quot;)) {&#xD;
+			fees = 400;&#xD;
+		}&#xD;
+		switch (slot) {&#xD;
+		case 1:&#xD;
+			time_slot = &quot;Morning: 8:00-11:00&quot;;&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name&#xD;
+					+ &quot;\nShift: &quot; + &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Modified !\n&quot;);&#xD;
+			another_booking();&#xD;
+			break;&#xD;
+&#xD;
+		case 2:&#xD;
+			time_slot = &quot;Afternoon: 12:00-3:00&quot;;&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name + &quot;\nSlot: &quot;&#xD;
+					+ &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Modified !\n&quot;);&#xD;
+			another_booking();&#xD;
+			break;&#xD;
+&#xD;
+		case 3:&#xD;
+			time_slot = &quot;Evening: 6:30-9:30&quot;;&#xD;
+			System.out.println(&quot;Booking Details:\nDay:&quot; + &quot; &quot; + d + &quot;\n&quot; + &quot;Enrolled To: &quot; + &quot; &quot; + exe_name + &quot;\nSlot: &quot;&#xD;
+					+ &quot; &quot; + time_slot + &quot;\n&quot; + &quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+			System.out.println(&quot;Booking Modified !\n&quot;);&#xD;
+			another_booking();&#xD;
+			break;&#xD;
+		default:&#xD;
+			System.out.println(&quot;Invalid Input\nProvide a valid one&quot;);&#xD;
+			break;&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZFeSwrzrEeyBAt1NlSMfcg" name="another_booking" specification="_ZEJdELzrEeyBAt1NlSMfcg">
+          <language>java</language>
+          <body>String ch = null;&#xD;
+		System.out.println(&quot;Do you want to book another Exercise class???\nPress y for Yes\nPress n for No\n&quot;);&#xD;
+		ch = s.next();&#xD;
+		switch (ch) {&#xD;
+		case &quot;y&quot;:&#xD;
+			modify = new Manage_Booking();&#xD;
+			break;&#xD;
+		case &quot;n&quot;:&#xD;
+			break;&#xD;
+		default:&#xD;
+			System.out.println(&quot;Invalid Choice&quot;);&#xD;
+			break;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZFeSw7zrEeyBAt1NlSMfcg" name="bookingList" specification="_ZEJdEbzrEeyBAt1NlSMfcg">
+          <language>java</language>
+          <body>ArrayList&lt;String> lt = new ArrayList&lt;>(); // STRING ARRAY LIST FOR STORING BOOKING//&#xD;
+		lt.add(&quot;Day: &quot; + &quot; &quot; + d);&#xD;
+		lt.add(&quot;Enrolled Class: &quot; + &quot; &quot; + exe_name);&#xD;
+		lt.add(&quot;Time Slot: &quot; + &quot; &quot; + time_slot);&#xD;
+		lt.add(&quot;Fees: &quot; + &quot; &quot; + fees);&#xD;
+		// Traversing list through for-each loop//&#xD;
+		lt.forEach((a) -> {&#xD;
+			System.out.println(a + &quot;\n&quot;);&#xD;
+		});&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ZEFysLzrEeyBAt1NlSMfcg" name="Manage_Booking" method="_ZFcdkLzrEeyBAt1NlSMfcg">
+          <eAnnotations xmi:id="_ZEHA0LzrEeyBAt1NlSMfcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ZEHn4LzrEeyBAt1NlSMfcg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ZEHn4bzrEeyBAt1NlSMfcg" type="_ZD8BsLzrEeyBAt1NlSMfcg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZEIO8LzrEeyBAt1NlSMfcg" name="Saturday_Class" visibility="private" method="_ZFeSwLzrEeyBAt1NlSMfcg"/>
+        <ownedOperation xmi:id="_ZEI2ALzrEeyBAt1NlSMfcg" name="Sunday_Class" visibility="private" method="_ZFeSwbzrEeyBAt1NlSMfcg"/>
+        <ownedOperation xmi:id="_ZEJdELzrEeyBAt1NlSMfcg" name="another_booking" visibility="private" method="_ZFeSwrzrEeyBAt1NlSMfcg"/>
+        <ownedOperation xmi:id="_ZEJdEbzrEeyBAt1NlSMfcg" name="bookingList" method="_ZFeSw7zrEeyBAt1NlSMfcg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ZFikMLzrEeyBAt1NlSMfcg" name="" memberEnd="_ZFikMbzrEeyBAt1NlSMfcg _ZFWW8bzrEeyBAt1NlSMfcg">
+        <ownedEnd xmi:id="_ZFikMbzrEeyBAt1NlSMfcg" name="" type="_ZD8BsLzrEeyBAt1NlSMfcg" association="_ZFikMLzrEeyBAt1NlSMfcg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ZFoq0LzrEeyBAt1NlSMfcg" name="" memberEnd="_ZFoq0bzrEeyBAt1NlSMfcg _ZFXlEbzrEeyBAt1NlSMfcg">
+        <ownedEnd xmi:id="_ZFoq0bzrEeyBAt1NlSMfcg" name="" type="_ZD8BsLzrEeyBAt1NlSMfcg" association="_ZFoq0LzrEeyBAt1NlSMfcg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aCkNILzrEeyBAt1NlSMfcg" name="Report_generate_monthly">
+        <ownedAttribute xmi:id="_aDqZULzrEeyBAt1NlSMfcg" name="mr" visibility="package" isStatic="true" type="_aCkNILzrEeyBAt1NlSMfcg" association="_aD1YcLzrEeyBAt1NlSMfcg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aDuqwLzrEeyBAt1NlSMfcg" name="Report_generate_monthly" specification="_aCt-ILzrEeyBAt1NlSMfcg">
+          <ownedParameter xmi:id="_aDuqwbzrEeyBAt1NlSMfcg" type="_aCkNILzrEeyBAt1NlSMfcg" direction="return"/>
+          <language>java</language>
+          <body>System.out.println(&quot;Monthly Report: \n&quot;);&#xD;
+		System.out.println(&quot;First Week&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Number of Students&quot;);&#xD;
+		System.out.println(&quot;Saturday&quot;);&#xD;
+		System.out.println(&quot;Yoga 		: 5&quot;);&#xD;
+		System.out.println(&quot;Zumba 		: 6&quot;);&#xD;
+		System.out.println(&quot;Aquacise	: 10&quot;);&#xD;
+		System.out.println(&quot;Box Bit 	: 4&quot;);&#xD;
+		System.out.println(&quot;BodyBlitz 	: 11\n&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Sunday&quot;);&#xD;
+		System.out.println(&quot;Yoga		: 3&quot;);&#xD;
+		System.out.println(&quot;Zumba		: 6&quot;);&#xD;
+		System.out.println(&quot;Aquacise	: 11&quot;);&#xD;
+		System.out.println(&quot;Box Bit		: 5&quot;);&#xD;
+		System.out.println(&quot;BodyBlitz 	: 12\n\n&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Average Rating From Student \n&quot;);&#xD;
+		System.out.println(&quot;4 Satisfied&quot;);&#xD;
+		System.out.println(&quot;5 Very Satisfied&quot;);&#xD;
+		System.out.println(&quot;3 Ok&quot;);&#xD;
+		System.out.println(&quot;2 Dissatisfied&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Second Week&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Saturday&quot;);&#xD;
+		System.out.println(&quot;Yoga		: 5&quot;);&#xD;
+		System.out.println(&quot;Zumba		: 6&quot;);&#xD;
+		System.out.println(&quot;Aquacise	: 10&quot;);&#xD;
+		System.out.println(&quot;Box Bit 	: 4&quot;);&#xD;
+		System.out.println(&quot;BodyBlitz 	: 8\n&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Sunday&quot;);&#xD;
+		System.out.println(&quot;Youga 		: 8&quot;);&#xD;
+		System.out.println(&quot;Zumba 		: 6&quot;);&#xD;
+		System.out.println(&quot;Aquacise	: 5&quot;);&#xD;
+		System.out.println(&quot;Box Bit 	: 4&quot;);&#xD;
+		System.out.println(&quot;BodyBlitz 	: 9\n\n&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Average Rating From Student \n&quot;);&#xD;
+		System.out.println(&quot;Average Rating From Student \n&quot;);&#xD;
+		System.out.println(&quot;Satisfied&quot;);&#xD;
+		System.out.println(&quot;Ok&quot;);&#xD;
+		System.out.println(&quot;Very Satisfied\n&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Third Week&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Saturday&quot;);&#xD;
+		System.out.println(&quot;Yoga 		: 3&quot;);&#xD;
+		System.out.println(&quot;Zumba 		: 6&quot;);&#xD;
+		System.out.println(&quot;Aquacise	: 11&quot;);&#xD;
+		System.out.println(&quot;Box Bit 	: 2&quot;);&#xD;
+		System.out.println(&quot;BodyBlitz 	: 7\n&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Sunday&quot;);&#xD;
+		System.out.println(&quot;Yoga 		: 2&quot;);&#xD;
+		System.out.println(&quot;Zumba 		: 6&quot;);&#xD;
+		System.out.println(&quot;Aquacise 	: 1&quot;);&#xD;
+		System.out.println(&quot;Box Bit 	: 2&quot;);&#xD;
+		System.out.println(&quot;BodyBlitz 	: 5\n\n&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Average Rating From Student \n&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;5 Very Satisfied&quot;);&#xD;
+		System.out.println(&quot;3 Ok&quot;);&#xD;
+		System.out.println(&quot;1 Very dissatisfied\n&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Fourth Week&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Saturday&quot;);&#xD;
+		System.out.println(&quot;Youga 		: 6&quot;);&#xD;
+		System.out.println(&quot;Zumba 		: 5&quot;);&#xD;
+		System.out.println(&quot;Aquacise 	: 8&quot;);&#xD;
+		System.out.println(&quot;Box Bit 	: 4&quot;);&#xD;
+		System.out.println(&quot;BodyBlitz 	: 6\n&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Sunday&quot;);&#xD;
+		System.out.println(&quot;Youga 		: 9&quot;);&#xD;
+		System.out.println(&quot;Zumba 		: 6&quot;);&#xD;
+		System.out.println(&quot;Aquacise 	: 1&quot;);&#xD;
+		System.out.println(&quot;Box Bit 	: 2&quot;);&#xD;
+		System.out.println(&quot;BodyBlitz 	: 8\n\n&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;4 Satisfied&quot;);&#xD;
+		System.out.println(&quot;3 Ok&quot;);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aDvR0LzrEeyBAt1NlSMfcg" name="ratinglist" specification="_aCyPkLzrEeyBAt1NlSMfcg">
+          <language>java</language>
+          <body>try {&#xD;
+			File f1 = new File(&quot;Reviews.txt&quot;);&#xD;
+			try (Scanner read = new Scanner(f1)) {&#xD;
+				while (read.hasNextLine()) {&#xD;
+					String review = read.nextLine();&#xD;
+					System.out.println(review);&#xD;
+				}&#xD;
+			}&#xD;
+		} catch (FileNotFoundException ex) {&#xD;
+			System.out.println(&quot;Error Occured.&quot;);&#xD;
+			ex.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aCt-ILzrEeyBAt1NlSMfcg" name="Report_generate_monthly" method="_aDuqwLzrEeyBAt1NlSMfcg">
+          <eAnnotations xmi:id="_aCvMQLzrEeyBAt1NlSMfcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aCwaYLzrEeyBAt1NlSMfcg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_aCxBcLzrEeyBAt1NlSMfcg" type="_aCkNILzrEeyBAt1NlSMfcg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aCyPkLzrEeyBAt1NlSMfcg" name="ratinglist" method="_aDvR0LzrEeyBAt1NlSMfcg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_aD1YcLzrEeyBAt1NlSMfcg" name="" memberEnd="_aD1YcbzrEeyBAt1NlSMfcg _aDqZULzrEeyBAt1NlSMfcg">
+        <ownedEnd xmi:id="_aD1YcbzrEeyBAt1NlSMfcg" name="" type="_aCkNILzrEeyBAt1NlSMfcg" association="_aD1YcLzrEeyBAt1NlSMfcg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_bBVigLzrEeyBAt1NlSMfcg" name="Reviews">
+        <ownedAttribute xmi:id="_bCGXgLzrEeyBAt1NlSMfcg" name="rc" visibility="package" isStatic="true" type="_bBVigLzrEeyBAt1NlSMfcg" association="_bCQvkLzrEeyBAt1NlSMfcg"/>
+        <ownedAttribute xmi:id="_bCJa0LzrEeyBAt1NlSMfcg" name="feedback">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_bCKB4LzrEeyBAt1NlSMfcg" value="null"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bCNsQLzrEeyBAt1NlSMfcg" name="Reviews" specification="_bBdeULzrEeyBAt1NlSMfcg">
+          <ownedParameter xmi:id="_bCNsQbzrEeyBAt1NlSMfcg" type="_bBVigLzrEeyBAt1NlSMfcg" direction="return"/>
+          <language>java</language>
+          <body>System.out.println(&quot;Excercise Class Attended  Attended the excersice class &quot;);&#xD;
+		System.out.println(&quot;Your Review  about the class:&quot;);&#xD;
+&#xD;
+		Scanner s = new Scanner(System.in);&#xD;
+		feedback = s.nextLine();&#xD;
+&#xD;
+		int rating = 0; // Integer variable for storing rating&#xD;
+		System.out.println(&quot;\nNumerical rating of the class ranging from 1 to 5&quot;);&#xD;
+		System.out.println(&quot;1: Very dissatisfied\n2: Dissatisfied\n3: Ok\n4: Satisfied\n5: Very Satisfied&quot;);&#xD;
+		rating = s.nextInt();&#xD;
+		// Switch expression&#xD;
+		switch (rating) { // Switch case for checking user feedback&#xD;
+		case 1:&#xD;
+			System.out.println(&#xD;
+					&quot;Students Review:\n&quot; + &quot;Rating: &quot; + rating + &quot; Very dissatisfied\n&quot; + &quot;Review: &quot; + feedback);&#xD;
+			break;&#xD;
+		case 2:&#xD;
+			System.out.println(&quot;Students Review:\n&quot; + &quot;Rating: &quot; + rating + &quot; Dissatisfied\n&quot; + &quot;Review: &quot; + feedback);&#xD;
+			break;&#xD;
+		case 3:&#xD;
+			System.out.println(&quot;Students Review:\n&quot; + &quot;Rating: &quot; + rating + &quot;Ok\n&quot; + &quot;Review: &quot; + feedback);&#xD;
+			break;&#xD;
+		case 4:&#xD;
+			System.out.println(&quot;Students Review:\n&quot; + &quot;Rating: &quot; + rating + &quot; Satisfied\n&quot; + &quot;Review: &quot; + feedback);&#xD;
+			break;&#xD;
+		case 5:&#xD;
+			System.out&#xD;
+					.println(&quot;Students Review:\n&quot; + &quot;Rating: &quot; + rating + &quot; Very Satisfied\n&quot; + &quot;Review: &quot; + feedback);&#xD;
+			break;&#xD;
+		default:&#xD;
+			System.out.println(&quot;Enter Rating from 1 to 5 \n&quot;);&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_bBdeULzrEeyBAt1NlSMfcg" name="Reviews" method="_bCNsQLzrEeyBAt1NlSMfcg">
+          <eAnnotations xmi:id="_bBescLzrEeyBAt1NlSMfcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_bBf6kLzrEeyBAt1NlSMfcg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_bBghoLzrEeyBAt1NlSMfcg" type="_bBVigLzrEeyBAt1NlSMfcg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_bCQvkLzrEeyBAt1NlSMfcg" name="" memberEnd="_bCQvkbzrEeyBAt1NlSMfcg _bCGXgLzrEeyBAt1NlSMfcg">
+        <ownedEnd xmi:id="_bCQvkbzrEeyBAt1NlSMfcg" name="" type="_bBVigLzrEeyBAt1NlSMfcg" association="_bCQvkLzrEeyBAt1NlSMfcg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_b7A8gLzrEeyBAt1NlSMfcg" name="UniversitySportsCentre_main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_b9GAILzrEeyBAt1NlSMfcg" name="UniversitySportsCentre" specification="_b7UegLzrEeyBAt1NlSMfcg">
+          <language>java</language>
+          <body>System.out.println(&quot;1=> Book a group exercise class\r\n&quot; + &quot;2=> Change a booking\r\n&quot; + &quot;3=> Attend a class\r\n&quot;&#xD;
+				+ &quot;4=> Monthly class report\r\n&quot; + &quot;5=> Monthly champion class report\r\n6=> Exit&quot;&#xD;
+				+ &quot;\nSelect The Choice: &quot;);&#xD;
+		int ch = 0; // variable for the selection from list&#xD;
+		Scanner s = new Scanner(System.in); // User Input&#xD;
+&#xD;
+		ch = s.nextInt();&#xD;
+&#xD;
+		// Now Check what input is put by user and compare it with the switch&#xD;
+		switch (ch) {&#xD;
+&#xD;
+		case 1:&#xD;
+         &#xD;
+			grp = new Groups_Exer();&#xD;
+			System.out.println(&quot;Do you want to selet another option\n&quot;);&#xD;
+			UniversitySportsCentre();&#xD;
+			break;&#xD;
+&#xD;
+		case 2:&#xD;
+			if (grp != null) {&#xD;
+				grp.bookingList();&#xD;
+				modify = new Manage_Booking();&#xD;
+			} else {&#xD;
+				System.out.println(&quot;No booking is  avaialabl&quot;);&#xD;
+			}&#xD;
+&#xD;
+			System.out.println(&quot;Do you want to select another option\n&quot;);&#xD;
+			UniversitySportsCentre();&#xD;
+			break;&#xD;
+&#xD;
+		case 3:&#xD;
+			rc = new Reviews();&#xD;
+			System.out.println(&quot;Do you want to select another option\n&quot;);&#xD;
+			UniversitySportsCentre();&#xD;
+			break;&#xD;
+		case 4:&#xD;
+			mr = new Report_generate_monthly();&#xD;
+			mr.ratinglist();&#xD;
+			System.out.println(&quot;Thank You\n&quot;);&#xD;
+			UniversitySportsCentre();&#xD;
+			break;&#xD;
+&#xD;
+		case 5:&#xD;
+			Champions cc = new Champions();&#xD;
+			System.out.println(&quot;Thank You\n&quot;);&#xD;
+			UniversitySportsCentre();&#xD;
+			break;&#xD;
+		case 6:&#xD;
+			break;&#xD;
+&#xD;
+		default:&#xD;
+			System.out.println(&quot;Kindly select from the below menu&quot;);&#xD;
+			UniversitySportsCentre();&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_b9K4oLzrEeyBAt1NlSMfcg" name="main" specification="_b7alILzrEeyBAt1NlSMfcg">
+          <ownedParameter xmi:id="_b9K4obzrEeyBAt1NlSMfcg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b9K4orzrEeyBAt1NlSMfcg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>UniversitySportsCentre();&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_b7UegLzrEeyBAt1NlSMfcg" name="UniversitySportsCentre" isStatic="true" method="_b9GAILzrEeyBAt1NlSMfcg"/>
+        <ownedOperation xmi:id="_b7alILzrEeyBAt1NlSMfcg" name="main" isStatic="true" method="_b9K4oLzrEeyBAt1NlSMfcg">
+          <ownedParameter xmi:id="_b7alIbzrEeyBAt1NlSMfcg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b7bzQLzrEeyBAt1NlSMfcg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_b7e2kLzrEeyBAt1NlSMfcg" name="Champions">
+          <eAnnotations xmi:id="_b7fdoLzrEeyBAt1NlSMfcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_b7gEsLzrEeyBAt1NlSMfcg" key="static"/>
+          </eAnnotations>
+          <ownedAttribute xmi:id="_b9BHoLzrEeyBAt1NlSMfcg" name="cc" visibility="package" isStatic="true" type="_b7e2kLzrEeyBAt1NlSMfcg" association="_b9OjALzrEeyBAt1NlSMfcg"/>
+          <ownedAttribute xmi:id="_b9EK8LzrEeyBAt1NlSMfcg" name="income">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_b9EyALzrEeyBAt1NlSMfcg" value="0"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_b9LfsLzrEeyBAt1NlSMfcg" name="Champions" specification="_b7k9MLzrEeyBAt1NlSMfcg">
+            <ownedParameter xmi:id="_b9LfsbzrEeyBAt1NlSMfcg" type="_b7e2kLzrEeyBAt1NlSMfcg" direction="return"/>
+            <language>java</language>
+            <body>int month=0; //Integer variable for taking month input&#xD;
+				System.out.println(&quot;Monthly Report for Popular Classes\nSelect from the List&quot;);&#xD;
+				System.out.println(&quot;1. Jan\n2. Feb\n3. Mar\n4. Apr\n5. May\n6. Jun\n7. Jul\n8. Aug\n9. Sept\n10. Oct\n11. Nov\n12. Dec\n&quot;);&#xD;
+				Scanner sc=new Scanner(System.in);&#xD;
+				month=sc.nextInt();&#xD;
+				switch(month) {&#xD;
+				case 1:&#xD;
+					System.out.println(&quot;Month: January&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;BodyBlitz: &quot;+&quot;$&quot;+4400+&quot; Yoga: &quot;+&quot;$&quot;+4000);&#xD;
+					income=4400+4000;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;&#xD;
+				case 2:&#xD;
+					System.out.println(&quot;Month: February&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;Yoga: &quot;+&quot;$&quot;+4000+&quot; Zumba: &quot;+&quot;$&quot;+4800);&#xD;
+					income=4000+4800;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;&#xD;
+				case 3:&#xD;
+					System.out.println(&quot;Month: March&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;Aquacise: &quot;+&quot;$&quot;+5400+&quot; Box Fit: &quot;+&quot;$&quot;+5280);&#xD;
+					income=5400+5280;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;&#xD;
+				case 4:&#xD;
+					System.out.println(&quot;Month: April&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;Zumba: &quot;+&quot;$&quot;+6000+&quot; Yoga: &quot;+&quot;$&quot;+4500);&#xD;
+					income=6000+4500;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;&#xD;
+				case 5:&#xD;
+					System.out.println(&quot;Month: May&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;Aquacise: &quot;+&quot;$&quot;+7650+&quot; Box Fit: &quot;+&quot;$&quot;+5280);&#xD;
+					income=76540+5280;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;&#xD;
+				case 6:&#xD;
+					System.out.println(&quot;Month: June&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;BodyBlitz: &quot;+&quot;$&quot;+4400+&quot; Aquacise: &quot;+&quot;$&quot;+4000);&#xD;
+					income=4400+4000;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;&#xD;
+				case 7:&#xD;
+					System.out.println(&quot;Month: July&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;Yoga: &quot;+&quot;$&quot;+4500+&quot; BodyBlitz: &quot;+&quot;$&quot;+5200);&#xD;
+					income=4500+5200;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;&#xD;
+				case 8:&#xD;
+					System.out.println(&quot;Month: August&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;Aquacise: &quot;+&quot;$&quot;+5400+&quot; Box Fit: &quot;+&quot;$&quot;+5280);&#xD;
+					income=5400+5280;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;&#xD;
+				case 9:&#xD;
+					System.out.println(&quot;Month: September&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;Zumba: &quot;+&quot;$&quot;+6000+&quot; Yoga: &quot;+&quot;$&quot;+4500);&#xD;
+					income=6000+4500;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;&#xD;
+				case 10:&#xD;
+					System.out.println(&quot;Month: October&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;Aquacise: &quot;+&quot;$&quot;+7650+&quot; Box Fit: &quot;+&quot;$&quot;+5280);&#xD;
+					income=76540+5280;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;	&#xD;
+				case 11:&#xD;
+					System.out.println(&quot;Month: November&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;Zumba: &quot;+&quot;$&quot;+6000+&quot; Yoga: &quot;+&quot;$&quot;+4500);&#xD;
+					income=6000+4500;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;&#xD;
+				case 12:&#xD;
+					System.out.println(&quot;Month: December&quot;);&#xD;
+					System.out.println(&quot;Champion Class of the Month&quot;);&#xD;
+					System.out.println(&quot;Aquacise: &quot;+&quot;$&quot;+7650+&quot; Box Fit: &quot;+&quot;$&quot;+5280);&#xD;
+					income=76540+5280;&#xD;
+					System.out.println(&quot;Toatl Income from this classes: &quot;+&quot;$&quot;+income);&#xD;
+					break;		&#xD;
+				default:&#xD;
+					System.out.println(&quot;Input not valid\nPlease Provide appropriate input&quot;);&#xD;
+					break;&#xD;
+				}&#xD;
+					&#xD;
+			</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_b7k9MLzrEeyBAt1NlSMfcg" name="Champions" method="_b9LfsLzrEeyBAt1NlSMfcg">
+            <eAnnotations xmi:id="_b7lkQLzrEeyBAt1NlSMfcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_b7lkQbzrEeyBAt1NlSMfcg" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_b7lkQrzrEeyBAt1NlSMfcg" type="_b7e2kLzrEeyBAt1NlSMfcg" direction="return"/>
+          </ownedOperation>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_b9OjALzrEeyBAt1NlSMfcg" name="" memberEnd="_b9OjAbzrEeyBAt1NlSMfcg _b9BHoLzrEeyBAt1NlSMfcg">
+        <ownedEnd xmi:id="_b9OjAbzrEeyBAt1NlSMfcg" name="" type="_b7e2kLzrEeyBAt1NlSMfcg" association="_b9OjALzrEeyBAt1NlSMfcg"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_YQcIMLzrEeyBAt1NlSMfcg">
+      <eAnnotations xmi:id="_YQhnwLzrEeyBAt1NlSMfcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:Reference xmi:id="_YVwGALzrEeyBAt1NlSMfcg" base_Element="_YVmVALzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:Reference xmi:id="_YWCZ4LzrEeyBAt1NlSMfcg" base_Element="_YV86ULzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YWRDYLzrEeyBAt1NlSMfcg" base_Element="_YWK8wLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YWWi8LzrEeyBAt1NlSMfcg" base_Element="_YWUtwLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YWXxELzrEeyBAt1NlSMfcg" base_Element="_YWWi8bzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YWYYIbzrEeyBAt1NlSMfcg" base_Element="_YWXxEbzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YWY_MrzrEeyBAt1NlSMfcg" base_Element="_YWY_MLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YWd3sLzrEeyBAt1NlSMfcg" base_Element="_YWZmQLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:Reference xmi:id="_YXADMLzrEeyBAt1NlSMfcg" base_Element="_YW8Y0LzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:Reference xmi:id="_YXDtkLzrEeyBAt1NlSMfcg" base_Element="_YXB4YLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZFPpQLzrEeyBAt1NlSMfcg" base_Element="_ZFL-4LzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZFTToLzrEeyBAt1NlSMfcg" base_Element="_ZFRecLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZFVI0LzrEeyBAt1NlSMfcg" base_Element="_ZFT6sLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZFWW8LzrEeyBAt1NlSMfcg" base_Element="_ZFVv4LzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZFXlELzrEeyBAt1NlSMfcg" base_Element="_ZFWW8bzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZFXlErzrEeyBAt1NlSMfcg" base_Element="_ZFXlEbzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:Reference xmi:id="_ZFlngLzrEeyBAt1NlSMfcg" base_Element="_ZFikMLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:Reference xmi:id="_ZFtjULzrEeyBAt1NlSMfcg" base_Element="_ZFoq0LzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:Reference xmi:id="_aDnWALzrEeyBAt1NlSMfcg" base_Element="_aDjroLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:Reference xmi:id="_aDpLMLzrEeyBAt1NlSMfcg" base_Element="_aDn9ELzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aDsOgLzrEeyBAt1NlSMfcg" base_Element="_aDqZULzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:Reference xmi:id="_aD5p4LzrEeyBAt1NlSMfcg" base_Element="_aD1YcLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_bCHloLzrEeyBAt1NlSMfcg" base_Element="_bCGXgLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_bCKo8LzrEeyBAt1NlSMfcg" base_Element="_bCJa0LzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:Reference xmi:id="_bCRWoLzrEeyBAt1NlSMfcg" base_Element="_bCQvkLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_b9CVwLzrEeyBAt1NlSMfcg" base_Element="_b9BHoLzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_b9EyAbzrEeyBAt1NlSMfcg" base_Element="_b9EK8LzrEeyBAt1NlSMfcg"/>
+  <UMLLabProfile:Reference xmi:id="_b9PxILzrEeyBAt1NlSMfcg" base_Element="_b9OjALzrEeyBAt1NlSMfcg"/>
+</xmi:XMI>

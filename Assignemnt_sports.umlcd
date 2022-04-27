@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_S-fGYLzrEeyBAt1NlSMfcg">
+  <modelElement href="Assignemnt_sports.uml#_YP58sLzrEeyBAt1NlSMfcg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Yc524LzrEeyBAt1NlSMfcg" sourceAnchor="127.0,230.0" targetAnchor="255.0,115.0" target="_YdfswLzrEeyBAt1NlSMfcg" source="_YdfswLzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_YXB4YLzrEeyBAt1NlSMfcg"/>
+    <bendpoints xmi:id="_cdmFILzrEeyBAt1NlSMfcg" sourceY="15" targetX="-128" targetY="130"/>
+    <bendpoints xmi:id="_cdnTQLzrEeyBAt1NlSMfcg" sourceX="143" sourceY="15" targetX="15" targetY="130"/>
+    <bendpoints xmi:id="_cdn6ULzrEeyBAt1NlSMfcg" sourceX="143" sourceY="-115" targetX="15"/>
+    <stereotypes xmi:id="_YdP1ILzrEeyBAt1NlSMfcg" name="Reference">
+      <modelElement href="Assignemnt_sports.uml#_YXDtkLzrEeyBAt1NlSMfcg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YdLjsLzrEeyBAt1NlSMfcg" text="">
+      <visualProperties xmi:id="_YiwnQLzrEeyBAt1NlSMfcg" position="2.0,-59.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YdN_8LzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="">
+      <modelElement href="Assignemnt_sports.uml#_YXB4YbzrEeyBAt1NlSMfcg"/>
+      <visualProperties xmi:id="_YivZIbzrEeyBAt1NlSMfcg" position="128.0,-113.0"/>
+      <visibility xmi:id="_YdRDQLzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_YdQcMLzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YdPOELzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="grp" navigable="true">
+      <modelElement href="Assignemnt_sports.uml#_YWZmQLzrEeyBAt1NlSMfcg"/>
+      <visualProperties xmi:id="_Yix1YLzrEeyBAt1NlSMfcg" position="17.0,22.0"/>
+      <visibility xmi:id="_YdRqUbzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_YdRqULzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YddQgLzrEeyBAt1NlSMfcg" source="_YdfswLzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_YW8Y0LzrEeyBAt1NlSMfcg"/>
+    <stereotypes xmi:id="_YddQgbzrEeyBAt1NlSMfcg" name="Reference">
+      <modelElement href="Assignemnt_sports.uml#_YXADMLzrEeyBAt1NlSMfcg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YddQgrzrEeyBAt1NlSMfcg" text=""/>
+    <sourceRole xmi:id="_Ydd3kLzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="">
+      <modelElement href="Assignemnt_sports.uml#_YW8Y0bzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_Ydd3kbzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_Ydd3krzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ydd3k7zrEeyBAt1NlSMfcg" aggregationKind="NONE" name="s" navigable="true">
+      <modelElement href="Assignemnt_sports.uml#_YWY_MLzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_Ydd3lLzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_Ydd3lbzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZIKaYLzrEeyBAt1NlSMfcg" sourceAnchor="133.0,230.0" targetAnchor="0.0,115.0" target="_ZInGULzrEeyBAt1NlSMfcg" source="_ZInGULzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_ZFoq0LzrEeyBAt1NlSMfcg"/>
+    <bendpoints xmi:id="_cdn6UbzrEeyBAt1NlSMfcg" sourceY="115" targetX="133" targetY="230"/>
+    <bendpoints xmi:id="_cdn6UrzrEeyBAt1NlSMfcg" sourceX="-248" sourceY="115" targetX="-115" targetY="230"/>
+    <bendpoints xmi:id="_cdn6U7zrEeyBAt1NlSMfcg" sourceX="-248" sourceY="-115" targetX="-115"/>
+    <stereotypes xmi:id="_ZIZD4LzrEeyBAt1NlSMfcg" name="Reference">
+      <modelElement href="Assignemnt_sports.uml#_ZFtjULzrEeyBAt1NlSMfcg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZIS9QLzrEeyBAt1NlSMfcg" text="">
+      <visualProperties xmi:id="_ZNEvkLzrEeyBAt1NlSMfcg" position="1.0,-56.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ZIWAkLzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="">
+      <modelElement href="Assignemnt_sports.uml#_ZFoq0bzrEeyBAt1NlSMfcg"/>
+      <visualProperties xmi:id="_ZNBsQLzrEeyBAt1NlSMfcg" position="-15.0,33.0"/>
+      <visibility xmi:id="_ZIbgILzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_ZIa5ELzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZIXOsLzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="modify" navigable="true">
+      <modelElement href="Assignemnt_sports.uml#_ZFXlEbzrEeyBAt1NlSMfcg"/>
+      <visualProperties xmi:id="_ZNGkwLzrEeyBAt1NlSMfcg" position="-74.00000000000003,1.0000000000000568"/>
+      <visibility xmi:id="_ZIbgIrzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_ZIbgIbzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZINdsLzrEeyBAt1NlSMfcg" source="_ZInGULzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_ZFikMLzrEeyBAt1NlSMfcg"/>
+    <stereotypes xmi:id="_ZIZq8bzrEeyBAt1NlSMfcg" name="Reference">
+      <modelElement href="Assignemnt_sports.uml#_ZFlngLzrEeyBAt1NlSMfcg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZIZD4bzrEeyBAt1NlSMfcg" text=""/>
+    <sourceRole xmi:id="_ZIZD4rzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="">
+      <modelElement href="Assignemnt_sports.uml#_ZFikMbzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_ZIejcLzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_ZId8YLzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZIZq8LzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="s" navigable="true">
+      <modelElement href="Assignemnt_sports.uml#_ZFWW8bzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_ZIejcrzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_ZIejcbzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aFu14LzrEeyBAt1NlSMfcg" sourceAnchor="179.0,0.0" targetAnchor="358.0,35.0" target="_aF5N8LzrEeyBAt1NlSMfcg" source="_aF5N8LzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_aD1YcLzrEeyBAt1NlSMfcg"/>
+    <bendpoints xmi:id="_cdohYLzrEeyBAt1NlSMfcg" sourceY="-94" targetX="-179" targetY="-129"/>
+    <bendpoints xmi:id="_cdohYbzrEeyBAt1NlSMfcg" sourceX="194" sourceY="-94" targetX="15" targetY="-129"/>
+    <bendpoints xmi:id="_cdohYrzrEeyBAt1NlSMfcg" sourceX="194" sourceY="35" targetX="15"/>
+    <stereotypes xmi:id="_aF1jkbzrEeyBAt1NlSMfcg" name="Reference">
+      <modelElement href="Assignemnt_sports.uml#_aD5p4LzrEeyBAt1NlSMfcg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aF08gLzrEeyBAt1NlSMfcg" text="">
+      <visualProperties xmi:id="_aIX6MLzrEeyBAt1NlSMfcg" position="-48.0,41.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aF08gbzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="">
+      <modelElement href="Assignemnt_sports.uml#_aD1YcbzrEeyBAt1NlSMfcg"/>
+      <visualProperties xmi:id="_aIWsELzrEeyBAt1NlSMfcg" position="179.0,-8.0"/>
+      <visibility xmi:id="_aF2KobzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_aF2KoLzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aF1jkLzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="mr" navigable="true">
+      <modelElement href="Assignemnt_sports.uml#_aDqZULzrEeyBAt1NlSMfcg"/>
+      <visualProperties xmi:id="_aIYhQLzrEeyBAt1NlSMfcg" position="-178.0,-88.0"/>
+      <visibility xmi:id="_aF2Ko7zrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_aF2KorzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bD1c4LzrEeyBAt1NlSMfcg" sourceAnchor="89.0,0.0" targetAnchor="178.0,39.0" target="_bD9YsLzrEeyBAt1NlSMfcg" source="_bD9YsLzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_bCQvkLzrEeyBAt1NlSMfcg"/>
+    <bendpoints xmi:id="_cdpvgLzrEeyBAt1NlSMfcg" sourceY="-56" targetX="-89" targetY="-95"/>
+    <bendpoints xmi:id="_cdpvgbzrEeyBAt1NlSMfcg" sourceX="104" sourceY="-56" targetX="15" targetY="-95"/>
+    <bendpoints xmi:id="_cdqWkLzrEeyBAt1NlSMfcg" sourceX="104" sourceY="39" targetX="15"/>
+    <stereotypes xmi:id="_bD6VYbzrEeyBAt1NlSMfcg" name="Reference">
+      <modelElement href="Assignemnt_sports.uml#_bCRWoLzrEeyBAt1NlSMfcg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bD5HQLzrEeyBAt1NlSMfcg" text="">
+      <visualProperties xmi:id="_bGAnILzrEeyBAt1NlSMfcg" position="2.0,45.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bD5uULzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="">
+      <modelElement href="Assignemnt_sports.uml#_bCQvkbzrEeyBAt1NlSMfcg"/>
+      <visualProperties xmi:id="_bF_ZALzrEeyBAt1NlSMfcg" position="89.0,-43.0"/>
+      <visibility xmi:id="_bD8KkbzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_bD8KkLzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bD6VYLzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="rc" navigable="true">
+      <modelElement href="Assignemnt_sports.uml#_bCGXgLzrEeyBAt1NlSMfcg"/>
+      <visualProperties xmi:id="_bGAnIbzrEeyBAt1NlSMfcg" position="-48.0,-94.0"/>
+      <visibility xmi:id="_bD8Kk7zrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_bD8KkrzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_b_9t8LzrEeyBAt1NlSMfcg" sourceAnchor="101.0,0.0" targetAnchor="0.0,46.0" target="_cAKiQLzrEeyBAt1NlSMfcg" source="_cAKiQLzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_b9OjALzrEeyBAt1NlSMfcg"/>
+    <bendpoints xmi:id="_cdqWkbzrEeyBAt1NlSMfcg" sourceY="-97" targetX="101" targetY="-143"/>
+    <bendpoints xmi:id="_cdqWkrzrEeyBAt1NlSMfcg" sourceX="-182" sourceY="-97" targetX="-81" targetY="-143"/>
+    <bendpoints xmi:id="_cdqWk7zrEeyBAt1NlSMfcg" sourceX="-182" sourceY="46" targetX="-81"/>
+    <stereotypes xmi:id="_cAFpwLzrEeyBAt1NlSMfcg" name="Reference">
+      <modelElement href="Assignemnt_sports.uml#_b9PxILzrEeyBAt1NlSMfcg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_cAAKMLzrEeyBAt1NlSMfcg" text="">
+      <visualProperties xmi:id="_cdySYLzrEeyBAt1NlSMfcg" position="119.5,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_cAB_YLzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="">
+      <modelElement href="Assignemnt_sports.uml#_b9OjAbzrEeyBAt1NlSMfcg"/>
+      <visualProperties xmi:id="_cdwdMLzrEeyBAt1NlSMfcg" position="-20.0,-46.0"/>
+      <visibility xmi:id="_cAG34bzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_cAG34LzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_cAEboLzrEeyBAt1NlSMfcg" aggregationKind="NONE" name="cc" navigable="true">
+      <modelElement href="Assignemnt_sports.uml#_b9BHoLzrEeyBAt1NlSMfcg"/>
+      <visualProperties xmi:id="_cdzggLzrEeyBAt1NlSMfcg" position="-32.0,6.0"/>
+      <visibility xmi:id="_cAHe8bzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_cAHe8LzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YdfswLzrEeyBAt1NlSMfcg" name="Groups_Exer" associationsIn="_Yc524LzrEeyBAt1NlSMfcg" associationsOut="_Yc524LzrEeyBAt1NlSMfcg _YddQgLzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_YQX2wLzrEeyBAt1NlSMfcg"/>
+    <visualProperties xmi:id="_YdfswbzrEeyBAt1NlSMfcg" position="245.0,68.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YdfswrzrEeyBAt1NlSMfcg" label="+"/>
+    <attributes xmi:id="_Ydfsw7zrEeyBAt1NlSMfcg" defaultValue="null" name="d">
+      <modelElement href="Assignemnt_sports.uml#_YWK8wLzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_YdfsxLzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_YWRDYLzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_YdfsxbzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_YdfsxrzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_Ydfsx7zrEeyBAt1NlSMfcg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdfsyLzrEeyBAt1NlSMfcg" defaultValue="null" name="exe_name">
+      <modelElement href="Assignemnt_sports.uml#_YWUtwLzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_YdfsybzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_YWWi8LzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_YdgT0LzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_YdgT0bzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdgT0rzrEeyBAt1NlSMfcg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdgT07zrEeyBAt1NlSMfcg" defaultValue="null" name="time_slot">
+      <modelElement href="Assignemnt_sports.uml#_YWWi8bzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_YdgT1LzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_YWXxELzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_YdgT1bzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_YdgT1rzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdgT17zrEeyBAt1NlSMfcg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdgT2LzrEeyBAt1NlSMfcg" defaultValue="0" name="fees">
+      <modelElement href="Assignemnt_sports.uml#_YWXxEbzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_YdgT2bzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_YWYYIbzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_YdgT2rzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_YdgT27zrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdgT3LzrEeyBAt1NlSMfcg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdgT3bzrEeyBAt1NlSMfcg" defaultValue="new Scanner(System.in)" name="s">
+      <modelElement href="Assignemnt_sports.uml#_YWY_MLzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_YdgT3rzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_YWY_MrzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_YdgT37zrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_YdgT4LzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdgT4bzrEeyBAt1NlSMfcg" name="Scanner">
+        <modelElement href="Assignemnt_sports.uml#_YV86ULzrEeyBAt1NlSMfcg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdgT4rzrEeyBAt1NlSMfcg" name="grp" staticAttribute="true">
+      <modelElement href="Assignemnt_sports.uml#_YWZmQLzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_YdgT47zrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_YWd3sLzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_YdgT5LzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_YdgT5bzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdgT5rzrEeyBAt1NlSMfcg" name="Groups_Exer">
+        <modelElement href="Assignemnt_sports.uml#_YQX2wLzrEeyBAt1NlSMfcg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YdgT57zrEeyBAt1NlSMfcg" name="Groups_Exer">
+      <modelElement href="Assignemnt_sports.uml#_YRDzQLzrEeyBAt1NlSMfcg"/>
+      <keywords xmi:id="_YdgT6LzrEeyBAt1NlSMfcg" keyword="create"/>
+      <visibility xmi:id="_YdgT6bzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_YdgT6rzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YdgT67zrEeyBAt1NlSMfcg">
+        <modelElement href="Assignemnt_sports.uml#_YRIEsLzrEeyBAt1NlSMfcg"/>
+        <type xmi:id="_YdgT7LzrEeyBAt1NlSMfcg" name="Groups_Exer">
+          <modelElement href="Assignemnt_sports.uml#_YQX2wLzrEeyBAt1NlSMfcg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YdgT7bzrEeyBAt1NlSMfcg" name="Saturday_Class">
+      <modelElement href="Assignemnt_sports.uml#_YRLIALzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_YdgT7rzrEeyBAt1NlSMfcg" label="-"/>
+      <cardinality xmi:id="_YdgT77zrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YdgT8LzrEeyBAt1NlSMfcg" name="Sunday_Class">
+      <modelElement href="Assignemnt_sports.uml#_YRNkQLzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_YdgT8bzrEeyBAt1NlSMfcg" label="-"/>
+      <cardinality xmi:id="_YdgT8rzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YdgT87zrEeyBAt1NlSMfcg" name="another_booking">
+      <modelElement href="Assignemnt_sports.uml#_YRNkQbzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_YdgT9LzrEeyBAt1NlSMfcg" label="-"/>
+      <cardinality xmi:id="_YdgT9bzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YdgT9rzrEeyBAt1NlSMfcg" name="bookingList">
+      <modelElement href="Assignemnt_sports.uml#_YROLULzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_YdgT97zrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_YdgT-LzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bD9YsLzrEeyBAt1NlSMfcg" name="Reviews" associationsIn="_bD1c4LzrEeyBAt1NlSMfcg" associationsOut="_bD1c4LzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_bBVigLzrEeyBAt1NlSMfcg"/>
+    <visualProperties xmi:id="_bD9_wLzrEeyBAt1NlSMfcg" position="166.0,360.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bD9_wbzrEeyBAt1NlSMfcg" label="+"/>
+    <attributes xmi:id="_bD9_wrzrEeyBAt1NlSMfcg" name="rc" staticAttribute="true">
+      <modelElement href="Assignemnt_sports.uml#_bCGXgLzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_bD9_w7zrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_bCHloLzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_bD9_xLzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_bD9_xbzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_bD9_xrzrEeyBAt1NlSMfcg" name="Reviews">
+        <modelElement href="Assignemnt_sports.uml#_bBVigLzrEeyBAt1NlSMfcg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bD9_x7zrEeyBAt1NlSMfcg" defaultValue="null" name="feedback">
+      <modelElement href="Assignemnt_sports.uml#_bCJa0LzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_bD9_yLzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_bCKo8LzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_bD9_ybzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_bD9_yrzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_bD9_y7zrEeyBAt1NlSMfcg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bD9_zLzrEeyBAt1NlSMfcg" name="Reviews">
+      <modelElement href="Assignemnt_sports.uml#_bBdeULzrEeyBAt1NlSMfcg"/>
+      <keywords xmi:id="_bD9_zbzrEeyBAt1NlSMfcg" keyword="create"/>
+      <visibility xmi:id="_bD9_zrzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_bD9_z7zrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bD9_0LzrEeyBAt1NlSMfcg">
+        <modelElement href="Assignemnt_sports.uml#_bBghoLzrEeyBAt1NlSMfcg"/>
+        <type xmi:id="_bD9_0bzrEeyBAt1NlSMfcg" name="Reviews">
+          <modelElement href="Assignemnt_sports.uml#_bBVigLzrEeyBAt1NlSMfcg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_b_2ZMLzrEeyBAt1NlSMfcg" name="UniversitySportsCentre_main">
+    <modelElement href="Assignemnt_sports.uml#_b7A8gLzrEeyBAt1NlSMfcg"/>
+    <visualProperties xmi:id="_b_3AQLzrEeyBAt1NlSMfcg" position="432.0,366.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b_3AQbzrEeyBAt1NlSMfcg" label="+"/>
+    <operations xmi:id="_b_3AQrzrEeyBAt1NlSMfcg" name="UniversitySportsCentre" staticOperation="true">
+      <modelElement href="Assignemnt_sports.uml#_b7UegLzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_b_3AQ7zrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_b_3ARLzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_b_3ARbzrEeyBAt1NlSMfcg" name="main" staticOperation="true">
+      <modelElement href="Assignemnt_sports.uml#_b7alILzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_b_3ARrzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_b_3AR7zrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b_3ASLzrEeyBAt1NlSMfcg" name="args">
+        <modelElement href="Assignemnt_sports.uml#_b7alIbzrEeyBAt1NlSMfcg"/>
+        <cardinality xmi:id="_b_3ASbzrEeyBAt1NlSMfcg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_b_3ASrzrEeyBAt1NlSMfcg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aF5N8LzrEeyBAt1NlSMfcg" name="Report_generate_monthly" associationsIn="_aFu14LzrEeyBAt1NlSMfcg" associationsOut="_aFu14LzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_aCkNILzrEeyBAt1NlSMfcg"/>
+    <visualProperties xmi:id="_aF51ALzrEeyBAt1NlSMfcg" position="667.0,264.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aF51AbzrEeyBAt1NlSMfcg" label="+"/>
+    <attributes xmi:id="_aF51ArzrEeyBAt1NlSMfcg" name="mr" staticAttribute="true">
+      <modelElement href="Assignemnt_sports.uml#_aDqZULzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_aF51A7zrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_aDsOgLzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_aF51BLzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_aF51BbzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_aF51BrzrEeyBAt1NlSMfcg" name="Report_generate_monthly">
+        <modelElement href="Assignemnt_sports.uml#_aCkNILzrEeyBAt1NlSMfcg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aF51B7zrEeyBAt1NlSMfcg" name="Report_generate_monthly">
+      <modelElement href="Assignemnt_sports.uml#_aCt-ILzrEeyBAt1NlSMfcg"/>
+      <keywords xmi:id="_aF51CLzrEeyBAt1NlSMfcg" keyword="create"/>
+      <visibility xmi:id="_aF51CbzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_aF51CrzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aF51C7zrEeyBAt1NlSMfcg">
+        <modelElement href="Assignemnt_sports.uml#_aCxBcLzrEeyBAt1NlSMfcg"/>
+        <type xmi:id="_aF51DLzrEeyBAt1NlSMfcg" name="Report_generate_monthly">
+          <modelElement href="Assignemnt_sports.uml#_aCkNILzrEeyBAt1NlSMfcg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aF51DbzrEeyBAt1NlSMfcg" name="ratinglist">
+      <modelElement href="Assignemnt_sports.uml#_aCyPkLzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_aF51DrzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_aF51D7zrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZInGULzrEeyBAt1NlSMfcg" name="Manage_Booking" associationsIn="_ZIKaYLzrEeyBAt1NlSMfcg" associationsOut="_ZIKaYLzrEeyBAt1NlSMfcg _ZINdsLzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_ZD8BsLzrEeyBAt1NlSMfcg"/>
+    <visualProperties xmi:id="_ZIntYLzrEeyBAt1NlSMfcg" position="-31.0,66.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZIntYbzrEeyBAt1NlSMfcg" label="+"/>
+    <attributes xmi:id="_ZIntYrzrEeyBAt1NlSMfcg" defaultValue="null" name="d">
+      <modelElement href="Assignemnt_sports.uml#_ZFL-4LzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_ZIntY7zrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_ZFPpQLzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZIntZLzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_ZIntZbzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_ZIntZrzrEeyBAt1NlSMfcg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZIntZ7zrEeyBAt1NlSMfcg" defaultValue="null" name="exe_name">
+      <modelElement href="Assignemnt_sports.uml#_ZFRecLzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_ZIntaLzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_ZFTToLzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZIntabzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_ZIntarzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_ZInta7zrEeyBAt1NlSMfcg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZIntbLzrEeyBAt1NlSMfcg" defaultValue="null" name="time_slot">
+      <modelElement href="Assignemnt_sports.uml#_ZFT6sLzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_ZIntbbzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_ZFVI0LzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZIntbrzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_ZIntb7zrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_ZIntcLzrEeyBAt1NlSMfcg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZIntcbzrEeyBAt1NlSMfcg" defaultValue="0" name="fees">
+      <modelElement href="Assignemnt_sports.uml#_ZFVv4LzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_ZIntcrzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_ZFWW8LzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZIntc7zrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_ZIntdLzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_ZIntdbzrEeyBAt1NlSMfcg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZIntdrzrEeyBAt1NlSMfcg" defaultValue="new Scanner(System.in)" name="s">
+      <modelElement href="Assignemnt_sports.uml#_ZFWW8bzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_ZIntd7zrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_ZFXlELzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZInteLzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_ZIntebzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_ZInterzrEeyBAt1NlSMfcg" name="Scanner">
+        <modelElement href="Assignemnt_sports.uml#_YV86ULzrEeyBAt1NlSMfcg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZInte7zrEeyBAt1NlSMfcg" name="modify" staticAttribute="true">
+      <modelElement href="Assignemnt_sports.uml#_ZFXlEbzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_ZIntfLzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_ZFXlErzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZIntfbzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_ZIntfrzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_ZIntf7zrEeyBAt1NlSMfcg" name="Manage_Booking">
+        <modelElement href="Assignemnt_sports.uml#_ZD8BsLzrEeyBAt1NlSMfcg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZIntgLzrEeyBAt1NlSMfcg" name="Manage_Booking">
+      <modelElement href="Assignemnt_sports.uml#_ZEFysLzrEeyBAt1NlSMfcg"/>
+      <keywords xmi:id="_ZIntgbzrEeyBAt1NlSMfcg" keyword="create"/>
+      <visibility xmi:id="_ZIntgrzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_ZIntg7zrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZInthLzrEeyBAt1NlSMfcg">
+        <modelElement href="Assignemnt_sports.uml#_ZEHn4bzrEeyBAt1NlSMfcg"/>
+        <type xmi:id="_ZInthbzrEeyBAt1NlSMfcg" name="Manage_Booking">
+          <modelElement href="Assignemnt_sports.uml#_ZD8BsLzrEeyBAt1NlSMfcg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZInthrzrEeyBAt1NlSMfcg" name="Saturday_Class">
+      <modelElement href="Assignemnt_sports.uml#_ZEIO8LzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_ZInth7zrEeyBAt1NlSMfcg" label="-"/>
+      <cardinality xmi:id="_ZIntiLzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ZIntibzrEeyBAt1NlSMfcg" name="Sunday_Class">
+      <modelElement href="Assignemnt_sports.uml#_ZEI2ALzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_ZIntirzrEeyBAt1NlSMfcg" label="-"/>
+      <cardinality xmi:id="_ZInti7zrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ZIntjLzrEeyBAt1NlSMfcg" name="another_booking">
+      <modelElement href="Assignemnt_sports.uml#_ZEJdELzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_ZIntjbzrEeyBAt1NlSMfcg" label="-"/>
+      <cardinality xmi:id="_ZIntjrzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ZIntj7zrEeyBAt1NlSMfcg" name="bookingList">
+      <modelElement href="Assignemnt_sports.uml#_ZEJdEbzrEeyBAt1NlSMfcg"/>
+      <visibility xmi:id="_ZIntkLzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_ZIntkbzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_cAKiQLzrEeyBAt1NlSMfcg" name="Champions" associationsIn="_b_9t8LzrEeyBAt1NlSMfcg" associationsOut="_b_9t8LzrEeyBAt1NlSMfcg">
+    <modelElement href="Assignemnt_sports.uml#_b7e2kLzrEeyBAt1NlSMfcg"/>
+    <visualProperties xmi:id="_cAKiQbzrEeyBAt1NlSMfcg" position="618.0,157.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_cAKiQrzrEeyBAt1NlSMfcg" keyword="static"/>
+    <visibility xmi:id="_cAKiQ7zrEeyBAt1NlSMfcg" label="+"/>
+    <attributes xmi:id="_cAKiRLzrEeyBAt1NlSMfcg" name="cc" staticAttribute="true">
+      <modelElement href="Assignemnt_sports.uml#_b9BHoLzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_cAKiRbzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_b9CVwLzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_cAKiRrzrEeyBAt1NlSMfcg" label="~"/>
+      <cardinality xmi:id="_cAKiR7zrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_cAKiSLzrEeyBAt1NlSMfcg" name="Champions">
+        <modelElement href="Assignemnt_sports.uml#_b7e2kLzrEeyBAt1NlSMfcg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cAKiSbzrEeyBAt1NlSMfcg" defaultValue="0" name="income">
+      <modelElement href="Assignemnt_sports.uml#_b9EK8LzrEeyBAt1NlSMfcg"/>
+      <stereotypes xmi:id="_cAKiSrzrEeyBAt1NlSMfcg" name="LegacyStyledElement">
+        <modelElement href="Assignemnt_sports.uml#_b9EyAbzrEeyBAt1NlSMfcg"/>
+      </stereotypes>
+      <visibility xmi:id="_cAKiS7zrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_cAKiTLzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <type xmi:id="_cAKiTbzrEeyBAt1NlSMfcg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_cAKiTrzrEeyBAt1NlSMfcg" name="Champions">
+      <modelElement href="Assignemnt_sports.uml#_b7k9MLzrEeyBAt1NlSMfcg"/>
+      <keywords xmi:id="_cAKiT7zrEeyBAt1NlSMfcg" keyword="create"/>
+      <visibility xmi:id="_cAKiULzrEeyBAt1NlSMfcg" label="+"/>
+      <cardinality xmi:id="_cAKiUbzrEeyBAt1NlSMfcg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cAKiUrzrEeyBAt1NlSMfcg">
+        <modelElement href="Assignemnt_sports.uml#_b7lkQrzrEeyBAt1NlSMfcg"/>
+        <type xmi:id="_cAKiU7zrEeyBAt1NlSMfcg" name="Champions">
+          <modelElement href="Assignemnt_sports.uml#_b7e2kLzrEeyBAt1NlSMfcg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
